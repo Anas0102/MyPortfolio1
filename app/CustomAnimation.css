@@ -1,0 +1,64 @@
+@keyframes customAnimation {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+  }
+  
+  .animate-custom {
+    animation: customAnimation 2s infinite;
+  }
+
+ h1 span  {
+    
+    animation: slideRight 10s ease forwards;
+  }
+  @keyframes slideRight{
+    0%{
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}  
+/* Existing styles */
+
+/* Mobile Styles */
+@media screen and (max-width: 640px) {
+  .flex-1 {
+    flex: 1;
+  }
+
+  .ml-15 {
+    margin-left: 1.5rem;
+  }
+
+  .ml-22 {
+    margin-left: 2.2rem;
+  }
+
+  .mr-18 {
+    margin-right: 1.8rem;
+  }
+
+  .mb-18 {
+    margin-bottom: 1.8rem;
+  }
+
+  .ml-44 {
+    margin-left: 4.4rem;
+  }
+
+  /* Add more responsive styles as needed */
+}
+
+/* Tablet Styles */
+@media screen and (min-width: 641px) and (max-width: 1024px) {
+  /* Add tablet-specific styles here */
+}
+
+/* Desktop Styles */
+@media screen and (min-width: 1025px) {
+  /* Add desktop-specific styles here */
+}

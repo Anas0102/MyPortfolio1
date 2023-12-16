@@ -1,0 +1,39 @@
+.experience {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .experience-item {
+    margin-bottom: 20px;
+  }
+  
+  .experience-date {
+    font-weight: bold;
+  }
+  
+  .experience-company {
+    font-style: italic;
+  }
+  
+  .experience-role {
+    margin-top: 30px;
+    text-align: center;
+  }
+/* styles.css */
+
+
+  
+  .parcours-icon {
+    font-size: 54px;
+    
+  }
+  
+  .parcours-text {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  
+  
+  
+    
