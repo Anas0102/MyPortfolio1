@@ -34,7 +34,7 @@ import uml from "../public/uml.png"
 
 import './experience.css'
 import './CustomAnimation.css'
-
+import './globals.css'
 export default function Home() {
   const el = React.useRef(null);
 
